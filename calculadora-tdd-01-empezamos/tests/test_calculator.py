@@ -1,6 +1,6 @@
 # Cargamos el módulo unittest
 import unittest
-from calculator import Calculator
+from src import Calculator
 # Creamos una clase heredando de TestCase
 class TestMyCalculator(unittest.TestCase):
 # Creamos una prueba para probar un valor inicial
@@ -8,4 +8,4 @@ class TestMyCalculator(unittest.TestCase):
         self.calc = Calculator()
 
     def test_initial_value(self):
-        self.assertEqual(0, calc.value)
+        self.assertEqual(0, self.calc.value)
