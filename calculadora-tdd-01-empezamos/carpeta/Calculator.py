@@ -5,7 +5,6 @@ class Calculator:
     def suma(self, a, b):
         self.value = a + b
 
-
     def resta(self, a, b):
         self.value = a - b
 
