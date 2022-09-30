@@ -15,9 +15,42 @@ class TestMyCalculator(unittest.TestCase):
         self.assertEqual(0, self.calc.value)
 
     # Creamos un nuevo test para comprobar una suma
-    def test_add_method(self):
+    def test_suma (self):
         # Ejecutamos el método
         self.calc.suma(1, 3)
         # Comprobamos si el valor es el que esperamos
         self.assertEqual(4, self.calc.value)
+
+    def test_resta(self):
+        # Ejecutamos el método
+        self.calc.resta(4, 2)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(2, self.calc.value)
+
+    def test_division(self):
+        # Ejecutamos el método
+        self.calc.división(4, 2)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(2, self.calc.value)
+
+    def test_mult(self):
+        # Ejecutamos el método
+        self.calc.producto(3, 2)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(6, self.calc.value)
+
+    def test_factorial(self):
+        # Ejecutamos el método
+        self.calc.factorial(4)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(24, self.calc.value)
+
+    def test_potencia(self):
+        # Ejecutamos el método
+        self.calc.potencia(3, 4)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(81, self.calc.value)
+
+if __name__ == '__main__':
+    unittest.main()
 
