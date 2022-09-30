@@ -17,6 +17,12 @@ class Calculator:
     def potencia(self, a, b):
         self.value = a^b
 
+    def factorial(numero):
+        fact = 1
+        for i in range(1,numero+1):
+            fact = fact * i
+        return fact
+
 
 
 
