@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./calculadora-tdd-01-empezamos/carpeta"
+    ]
+}

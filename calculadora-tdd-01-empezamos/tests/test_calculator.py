@@ -3,7 +3,8 @@ import unittest
 import sys
 import os.path
 sys.path.insert(0, r'C:\Users\Carlota Martin-Anero\OneDrive\Documentos\UAX\Tercero de carrera GMAT\5º cuatri\Desarrollo orientado a objetos\calcu\calculadora-tdd-01-empezamos\carpeta')
-from carpeta.Calculator import Calculator
+
+from Calculator import *
 # Creamos una clase heredando de TestCase
 class TestMyCalculator(unittest.TestCase):
 # Creamos una prueba para probar un valor inicial
